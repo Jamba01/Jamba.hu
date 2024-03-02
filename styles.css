@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: gold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 500% ;
+    text-decoration:  underline;
+}
+
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.animated-text {
+    font-size: 2em;
+    margin-bottom: 10px;
+    opacity: 0;
+}
+
+nav {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.content {
+    flex: 2;
+    margin-right: 20px;
+}
+
+article {
+    background-color: #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    background-image: url(ló.gif); fill: url(ló.gif);
+}
+
+article:hover {
+    transform: translateY(-5px);
+}
+
+aside {
+    flex: 1;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.responsive{
+    width: 100%;
+  max-width: 400px;
+  height: auto;
+}
